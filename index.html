@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+   
+    
+    <title>Exercio RGB</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1> Gerador de cor RGB</h1>
+   
+        <div id="code"></div>
+        <div id="cor"></div>
+        <input type="range" onchange="gerarCor()" id="red" min="0" max="255" value="0"><span id="txtRed"> R: 0</span>
+        <input type="range" onchange="gerarCor()" id="green" min="0" max="255" value="0"><span id="txtGreen"> R: 0</span>
+        <input type="range" onchange="gerarCor()" id="blue" min="0" max="255" value="0"><span id="txtBlue"> R: 0</span>
+
+        <p class="footer"> By Luan Albert </p>
+    </div>
+    
+</body>
+</html>
