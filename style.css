@@ -138,9 +138,5 @@ body
   span {
     display: none;
   }
-  #red,
-  #green,
-  #blue {
-    width: 90vw;
-  }
+ 
  }
